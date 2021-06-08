@@ -1,3 +1,4 @@
+from tomduf import *
 # Fonction TD
 def factorial(n):
   if n == 0:
@@ -5,3 +6,5 @@ def factorial(n):
   else:
     return n * factorial(n - 1)
 print(factorial(5))
+
+carre(5)
